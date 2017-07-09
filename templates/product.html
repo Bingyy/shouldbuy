@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+
+<!-- 导航栏 -->
+{% block navbar %}
+<div class="navbar navbar-inverse" role="navigation">
+         <div class="container">
+             <div class="navbar-header">
+                 <button type="button" class="navbar-toggle"
+                  data-toggle="collapse" data-target=".navbar-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                </button>
+                 <a class="navbar-brand" href="http://www.shouldbuy.cn">Shouldbuy</a>
+             </div>
+             <div class="navbar-collapse collapse">
+                 <ul class="nav navbar-nav">
+                     <li><a href="/">Home</a></li>
+                 </ul>
+             </div>
+         </div>
+</div>
+{% endblock %}
+
+
+{% block content %}
+
+	<div class="container"> 
+
+		<h3> 商品详情页 </h3>
+
+		<!-- 需要动态生成商品详情页 -->
+	
+		<p> 商品ID：{{ productId }}</p>
+		<button class="btn btn-info"> <a href="https://item.jd.com/1834951.html">欧乐B购买地址</a> </button>
+
+	</div>
+
+
+{% endblock %}

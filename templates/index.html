@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block navbar%}
+	{{ super() }}
+{% endblock %}
+
+<!-- 主要内容部分 -->
+{% block content %}
+
+	<!-- 搜索框 -->
+
+	<div class="container">
+		<div class="input-group col-md-3 pull-right row" style="margin-top:0px positon:relative">  
+	       <input type="text" class="form-control" placeholder="请输入字段名" / >  
+	            <span class="input-group-btn">  
+	               <a href="/search"><button class="btn btn-info btn-search">查找</button></a>
+	            </span>  
+	 	</div> 
+	</div>
+
+	<div class="container">
+        <div class="col-md-4 col-lg-4">
+        <h3>
+       		<a href="/"> <center>日用品</center> </a>
+        </h3>
+        	<div class="row">
+         		<p class="col-md-4 col-lg-4">
+        			<a href="/product/1">
+					<i class="icon-diannaoshuma"></i> 电动牙刷 </a>
+				</p>
+				<p class="col-md-4 col-lg-4">
+					<a href="javascript:void(0);" >
+					<i class="icon-jiayongdianqi"></i> 家用电器</a>
+				</p>	
+				<p class="col-lg-4 col-md-4">
+					<a href="javascript:void(0);">
+					<i class="icon-yundonghuwai"></i> 运动户外</a>
+				</p>
+			</div>
+
+			<div class="row">
+				<p class="col-md-4 col-lg-4">
+					<a href="javascript:void(0);" class="cl_177">
+					<i class="icon-bangongshebei"></i>办公设备</a>
+				</p>
+				<p class="col-md-4 col-lg-4">
+					<a href="javascript:void(0);" class="cl_27">
+					<i class="icon-jiayongdianqi"></i>家用电器</a>
+				</p>	
+				<p class="col-lg-4 col-md-4">
+					<a href="javascript:void(0);" class="cl_191">
+					<i class="icon-yundonghuwai"></i>运动户外</a>
+				</p>
+			</div>
+				
+        </div>
+
+ 
+
+        <div class="col-md-4 col-lg-4">
+        <h3>
+       		<a href="/"> <center> 服饰鞋包</center> </a>
+        </h3>
+        	<div class="row">
+         		<p class="col-md-4 col-lg-4">
+        			<a href="javascript:void(0);" class="cl_163">
+					<i class="icon-diannaoshuma"></i>个护化妆</a>
+				</p>
+				<p class="col-lg-4 col-md-4">
+					<a href="javascript:void(0);" class="cl_27">
+					<i class="icon-jiayongdianqi"></i>家用电器</a>
+				</p>	
+				<p class="col-lg-4 col-md-4">
+					<a href="javascript:void(0);" class="cl_191">
+					<i class="icon-yundonghuwai"></i>母婴用品</a>
+				</p>
+
+			</div>
+
+			<div class="row">
+				<p class="col-md-4 col-lg-4">
+					<a href="javascript:void(0);" class="cl_177">
+					<i class="icon-bangongshebei"></i>玩模乐器</a>
+				</p>
+			</div>
+				
+        </div>
+
+
+        <div class="col-md-4 col-lg-4">
+        <h3>
+       		<a href="/"> <center> 日用百货  </center> </a>
+        </h3>
+        	<div class="row">
+         		<p class="col-md-4">
+        			<a href="javascript:void(0);" class="cl_163">
+					<i class="icon-diannaoshuma"></i>食品保健</a>
+				</p>	
+				<p class="col-md-4">
+					<a href="javascript:void(0);" class="cl_191">
+					<i class="icon-yundonghuwai"></i>礼品钟表</a>
+				</p>
+
+				<p class="col-md-4">
+					<a href="javascript:void(0);" class="cl_177">
+					<i class="icon-bangongshebei"></i>图书音像</a>
+				</p>
+			</div>
+			<div class="row">
+				<p class="col-md-4 col-lg-4">
+        			<a href="javascript:void(0);" class="cl_163">
+					<i class="icon-diannaoshuma"></i>食品保健</a>
+				</p>	
+				<p class="col-lg-4 col-md-4">
+					<a href="javascript:void(0);" class="cl_191">
+					<i class="icon-yundonghuwai"></i>礼品钟表</a>
+				</p>
+
+				<p class="col-md-4 col-lg-4">
+					<a href="javascript:void(0);" class="cl_177">
+					<i class="icon-bangongshebei"></i>图书音像</a>
+				</p>
+			</div>
+
+			<div class="row">
+				<p class="col-lg-4 col-md-4">
+        			<a href="javascript:void(0);" class="cl_163">
+					<i class="icon-diannaoshuma"></i>食品保健</a>
+				</p>	
+				<p class="col-md-4 col-lg-4">
+					<a href="javascript:void(0);" class="cl_191">
+					<i class="icon-yundonghuwai"></i>礼品钟表</a>
+				</p>
+
+				<p class="col-lg-4 col-md-4">
+					<a href="javascript:void(0);" class="cl_177">
+					<i class="icon-bangongshebei"></i>图书音像</a>
+				</p>
+			</div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block footer %}
+{{super()}}
+
+ This is footer.
+
+{% endblock %}
